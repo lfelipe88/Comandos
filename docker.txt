@@ -1,0 +1,37 @@
+Comandos de Docker
+docker run <imagen>: Inicia un nuevo contenedor a partir de una imagen especificada.
+docker ps: Muestra todos los contenedores en ejecución.
+docker ps -a: Muestra todos los contenedores, incluyendo los detenidos.
+docker images: Lista todas las imágenes disponibles en tu máquina local.
+docker pull <imagen>: Descarga una imagen desde Docker Hub o un registro especificado.
+docker push <imagen>: Sube una imagen a un registro de Docker.
+docker stop <id>: Detiene un contenedor en ejecución.
+docker start <id>: Inicia un contenedor detenido.
+docker restart <id>: Reinicia un contenedor.
+docker rm <id>: Elimina un contenedor detenido.
+docker rmi <imagen>: Elimina una imagen de Docker.
+docker logs <id>: Muestra los registros de un contenedor específico.
+docker exec -it <id> <comando>: Ejecuta un comando en un contenedor en ejecución.
+docker network ls: Lista todas las redes de Docker disponibles.
+docker volume ls: Muestra todos los volúmenes de Docker existentes.
+docker inspect <id>: Muestra información detallada sobre un contenedor, imagen o red.
+docker system prune: Elimina todos los contenedores detenidos, redes no utilizadas, imágenes colgantes y caché de construcción.
+docker stats: Muestra estadísticas en tiempo real de los contenedores en ejecución.
+docker commit <id> <nueva_imagen>: Crea una nueva imagen a partir de un contenedor existente.
+docker build -t <nombre_imagen> <ruta>: Construye una imagen a partir de un Dockerfile en la ruta especificada.
+Comandos de Docker Compose
+docker-compose up: Inicia los servicios definidos en el archivo docker-compose.yml.
+docker-compose down: Detiene y elimina los contenedores, redes y volúmenes creados por up.
+docker-compose ps: Muestra el estado de los contenedores gestionados por Docker Compose.
+docker-compose logs: Muestra los registros de todos los servicios definidos en el archivo.
+docker-compose build: Construye o reconstruye los servicios definidos en el archivo.
+docker-compose exec <servicio> <comando>: Ejecuta un comando en un contenedor de un servicio específico.
+docker-compose run <servicio>: Ejecuta un comando en un nuevo contenedor para un servicio específico.
+docker-compose start: Inicia los servicios que están detenidos.
+docker-compose stop: Detiene los servicios en ejecución.
+docker-compose pull: Descarga las imágenes de los servicios definidos en el archivo.
+docker-compose config: Valida y muestra la configuración del archivo docker-compose.yml.
+docker-compose scale <servicio>=<número>: Escala un servicio a un número específico de instancias.
+docker-compose rm: Elimina los contenedores detenidos de los servicios.
+docker-compose up -d: Inicia los servicios en segundo plano (modo "detached").
+docker-compose down --volumes: Detiene y elimina los contenedores, redes y volúmenes creados por up, incluyendo los volúmenes.
