@@ -1,0 +1,59 @@
+1. 200 OK 
+   "✅ La solicitud ha tenido éxito."
+
+2. 201 Created 
+   "🌱 La solicitud ha tenido éxito y se ha creado un nuevo recurso."
+
+3. 204 No Content 
+   "🚫 La solicitud ha tenido éxito, pero no hay contenido para enviar."
+
+4. 400 Bad Request 
+   "❌ La solicitud no se puede procesar debido a un error del cliente."
+
+5. 401 Unauthorized 
+   "🔒 La solicitud requiere autenticación del usuario."
+
+6. 403 Forbidden 
+   "🚫 El servidor entiende la solicitud, pero se niega a autorizarla."
+
+7. 404 Not Found 
+   "🔍 El recurso solicitado no se pudo encontrar en el servidor."
+
+8. 405 Method Not Allowed 
+   "🚫 El método especificado en la solicitud no está permitido para el recurso."
+
+9. 408 Request Timeout 
+   "⏳ El servidor agotó el tiempo de espera para la solicitud del cliente."
+
+10. 500 Internal Server Error 
+    "⚠️ El servidor encontró un error y no pudo completar la solicitud."
+
+11. 501 Not Implemented 
+    "🚫 El servidor no reconoce el método de solicitud o no lo puede implementar."
+
+12. 502 Bad Gateway 
+    "🌉 El servidor, al actuar como puerta de enlace, recibió una respuesta inválida."
+
+13. 503 Service Unavailable 
+    "🔒 El servidor no está disponible temporalmente, generalmente por mantenimiento."
+
+14. 504 Gateway Timeout 
+    "⏳ El servidor, al actuar como puerta de enlace, no recibió una respuesta a tiempo."
+
+15. 301 Moved Permanently 
+    "🔄 El recurso solicitado ha sido movido permanentemente a una nueva URL."
+
+16. 302 Found 
+    "🔄 El recurso solicitado se encuentra temporalmente en una URL diferente."
+
+17. 307 Temporary Redirect 
+    "🔄 El recurso solicitado se encuentra temporalmente en una URL diferente, pero el método de solicitud debe permanecer igual."
+
+18. 308 Permanent Redirect 
+    "🔄 El recurso solicitado ha sido movido permanentemente a una nueva URL, y el método de solicitud debe permanecer igual."
+
+19. 429 Too Many Requests 
+    "🚫 El usuario ha enviado demasiadas solicitudes en un período de tiempo dado."
+
+20. 418 I'm a teapot 
+    "☕ El servidor se niega a preparar café porque es una tetera (código de error humorístico)."
