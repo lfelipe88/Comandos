@@ -1,0 +1,59 @@
+1. ls 
+   "📂 Lista los archivos y directorios en el directorio actual."
+
+2. cd <directorio> 
+   "📁 Cambia al directorio especificado."
+
+3. pwd 
+   "📍 Muestra la ruta del directorio actual."
+
+4. mkdir <nombre-directorio> 
+   "📦 Crea un nuevo directorio con el nombre especificado."
+
+5. rmdir <nombre-directorio> 
+   "🗑️ Elimina un directorio vacío."
+
+6. rm <archivo> 
+   "🗑️ Elimina un archivo."
+
+7. cp <origen> <destino> 
+   "📄 Copia un archivo o directorio de origen a destino."
+
+8. mv <origen> <destino> 
+   "📦 Mueve o renombra un archivo o directorio."
+
+9. touch <archivo> 
+   "📝 Crea un archivo vacío o actualiza la fecha de acceso de un archivo existente."
+
+10. cat <archivo> 
+    "📖 Muestra el contenido de un archivo en la terminal."
+
+11. less <archivo> 
+    "📜 Muestra el contenido de un archivo página por página."
+
+12. head <archivo> 
+    "🔝 Muestra las primeras líneas de un archivo."
+
+13. tail <archivo> 
+    "🔚 Muestra las últimas líneas de un archivo."
+
+14. grep <patrón> <archivo> 
+    "🔍 Busca un patrón específico en un archivo."
+
+15. find <directorio> -name <nombre> 
+    "🔎 Busca archivos y directorios en una ubicación específica."
+
+16. chmod <permisos> <archivo> 
+    "🔒 Cambia los permisos de un archivo o directorio."
+
+17. chown <usuario>:<grupo> <archivo> 
+    "👤 Cambia el propietario y el grupo de un archivo o directorio."
+
+18. ps 
+    "🖥️ Muestra los procesos en ejecución."
+
+19. kill <pid> 
+    "🛑 Termina un proceso utilizando su ID de proceso (PID)."
+
+20. sudo <comando> 
+    "🔑 Ejecuta un comando con privilegios de superusuario."

@@ -1,0 +1,59 @@
+1. az login 
+   "🔑 Inicia sesión en tu cuenta de Azure."
+
+2. az account list 
+   "📜 Lista todas las suscripciones de Azure asociadas a tu cuenta."
+
+3. az group create --name <nombre-grupo> --location <ubicación> 
+   "🏗️ Crea un nuevo grupo de recursos en la ubicación especificada."
+
+4. az group delete --name <nombre-grupo> 
+   "🗑️ Elimina un grupo de recursos y todos sus recursos."
+
+5. az vm create --resource-group <nombre-grupo> --name <nombre-vm> --image <imagen> 
+   "💻 Crea una nueva máquina virtual en el grupo de recursos especificado."
+
+6. az vm start --resource-group <nombre-grupo> --name <nombre-vm> 
+   "▶️ Inicia una máquina virtual detenida."
+
+7. az vm stop --resource-group <nombre-grupo> --name <nombre-vm> 
+   "⏸️ Detiene una máquina virtual en ejecución."
+
+8. az vm delete --resource-group <nombre-grupo> --name <nombre-vm> 
+   "🗑️ Elimina una máquina virtual."
+
+9. az storage account create --name <nombre-cuenta> --resource-group <nombre-grupo> --location <ubicación> 
+   "📦 Crea una nueva cuenta de almacenamiento."
+
+10. az storage blob upload --account-name <nombre-cuenta> --container-name <nombre-contenedor> --file <ruta-archivo> --name <nombre-blob> 
+    "📤 Sube un archivo a un contenedor de almacenamiento."
+
+11. az appservice plan create --name <nombre-plan> --resource-group <nombre-grupo> --sku <sku> 
+    "🌐 Crea un nuevo plan de App Service."
+
+12. az webapp create --resource-group <nombre-grupo> --plan <nombre-plan> --name <nombre-app> 
+    "🌍 Crea una nueva aplicación web en Azure."
+
+13. az webapp up --name <nombre-app> --resource-group <nombre-grupo> 
+    "🚀 Despliega una aplicación web en Azure."
+
+14. az functionapp create --resource-group <nombre-grupo> --name <nombre-funcion> --storage-account <nombre-cuenta> --plan <nombre-plan> 
+    "🔧 Crea una nueva aplicación de funciones en Azure."
+
+15. az sql db create --resource-group <nombre-grupo> --server <nombre-servidor> --name <nombre-db> --service-objective <objetivo-servicio> 
+    "🗄️ Crea una nueva base de datos SQL en Azure."
+
+16. az network vnet create --resource-group <nombre-grupo> --name <nombre-vnet> --address-prefix <prefijo> 
+    "🌐 Crea una nueva red virtual."
+
+17. az network nsg create --resource-group <nombre-grupo> --name <nombre-nsg> 
+    "🛡️ Crea un nuevo grupo de seguridad de red."
+
+18. az monitor activity-log list --resource-group <nombre-grupo> 
+    "📊 Muestra el registro de actividades para un grupo de recursos."
+
+19. az resource list 
+    "📋 Lista todos los recursos en tu suscripción de Azure."
+
+20. az logout 
+    "🚪 Cierra sesión en tu cuenta de Azure."

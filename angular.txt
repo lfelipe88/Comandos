@@ -1,0 +1,59 @@
+1. ng new <nombre-proyecto> 
+   "🌱 Crea un nuevo proyecto Angular con la configuración inicial."
+
+2. ng serve 
+   "🚀 Inicia un servidor de desarrollo y abre la aplicación en el navegador."
+
+3. ng generate component <nombre-componente> 
+   "🛠️ Genera un nuevo componente en el proyecto."
+
+4. ng generate service <nombre-servicio> 
+   "🛠️ Genera un nuevo servicio en el proyecto."
+
+5. ng generate module <nombre-modulo> 
+   "🛠️ Genera un nuevo módulo en el proyecto."
+
+6. ng build 
+   "📦 Compila el proyecto en una versión lista para producción."
+
+7. ng test 
+   "🧪 Ejecuta las pruebas unitarias del proyecto."
+
+8. ng e2e 
+   "🔍 Ejecuta pruebas de extremo a extremo (end-to-end) en la aplicación."
+
+9. ng lint 
+   "🔍 Analiza el código en busca de errores y problemas de estilo."
+
+10. ng update 
+    "🔄 Actualiza las dependencias del proyecto a la última versión."
+
+11. ng add <paquete> 
+    "➕ Agrega un paquete o biblioteca al proyecto, configurando automáticamente."
+
+12. ng deploy 
+    "📤 Despliega la aplicación en un servidor o plataforma de hosting."
+
+13. ng serve --open 
+    "🌐 Inicia el servidor de desarrollo y abre automáticamente el navegador."
+
+14. ng generate directive <nombre-directiva> 
+    "🛠️ Genera una nueva directiva en el proyecto."
+
+15. ng generate pipe <nombre-pipe> 
+    "🛠️ Genera un nuevo pipe en el proyecto."
+
+16. ng config 
+    "⚙️ Configura las opciones del proyecto Angular."
+
+17. ng version 
+    "ℹ️ Muestra la versión de Angular CLI y las dependencias del proyecto."
+
+18. ng help 
+    "❓ Muestra la ayuda y la lista de comandos disponibles en Angular CLI."
+
+19. ng serve --prod 
+    "🚀 Inicia el servidor de desarrollo en modo producción."
+
+20. ng build --prod 
+    "📦 Compila el proyecto en una versión optimizada para producción."

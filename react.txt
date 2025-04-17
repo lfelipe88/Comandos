@@ -1,0 +1,59 @@
+1. npx create-react-app <nombre-proyecto> 
+   "🌱 Crea un nuevo proyecto React con la configuración inicial."
+
+2. npm start 
+   "🚀 Inicia el servidor de desarrollo y abre la aplicación en el navegador."
+
+3. npm run build 
+   "📦 Compila la aplicación en una versión optimizada para producción."
+
+4. npm test 
+   "🧪 Ejecuta las pruebas unitarias de la aplicación."
+
+5. npm run eject 
+   "🔧 Expone la configuración de la aplicación para personalización."
+
+6. npm install <paquete> 
+   "➕ Instala un paquete o biblioteca en el proyecto."
+
+7. npm uninstall <paquete> 
+   "🗑️ Elimina un paquete o biblioteca del proyecto."
+
+8. npm update 
+   "🔄 Actualiza las dependencias del proyecto a la última versión."
+
+9. npm run lint 
+   "🔍 Analiza el código en busca de errores y problemas de estilo."
+
+10. npm run format 
+    "📝 Formatea el código según las reglas definidas."
+
+11. npx create-react-library <nombre-biblioteca> 
+    "📚 Crea una nueva biblioteca de componentes React."
+
+12. npm run test -- --watch 
+    "👀 Ejecuta las pruebas en modo de vigilancia, reejecutando al detectar cambios."
+
+13. npm run build -- --watch 
+    "🔄 Compila la aplicación en modo de vigilancia, actualizando automáticamente."
+
+14. npx serve -s build 
+    "🌐 Sirve la aplicación compilada desde la carpeta build."
+
+15. npm run storybook 
+    "📖 Inicia Storybook para desarrollar y documentar componentes de UI."
+
+16. npm run deploy 
+    "📤 Despliega la aplicación en un servicio de hosting."
+
+17. npm run analyze 
+    "📊 Analiza el tamaño de los paquetes de la aplicación."
+
+18. npm run test -- --coverage 
+    "📈 Ejecuta las pruebas y genera un informe de cobertura."
+
+19. npm run prestart 
+    "🔄 Ejecuta un script antes de iniciar la aplicación."
+
+20. npm run postbuild 
+    "🔄 Ejecuta un script después de construir la aplicación."

@@ -1,0 +1,59 @@
+1. dotnet new <plantilla> 
+   "Crea un nuevo proyecto o archivo basado en la plantilla especificada."
+
+2. dotnet build 
+   "Compila el proyecto y sus dependencias."
+
+3. dotnet run 
+   "Ejecuta el proyecto actual."
+
+4. dotnet restore 
+   "Restaura las dependencias y herramientas del proyecto."
+
+5. dotnet publish 
+   "Publica el proyecto para su implementación."
+
+6. dotnet test 
+   "Ejecuta las pruebas unitarias en el proyecto."
+
+7. dotnet add package <paquete> 
+   "Agrega un paquete NuGet al proyecto."
+
+8. dotnet remove package <paquete> 
+   "Elimina un paquete NuGet del proyecto."
+
+9. dotnet list package 
+   "Lista los paquetes NuGet instalados en el proyecto."
+
+10. dotnet migrate 
+    "Mueve un proyecto de una versión anterior de .NET Core a una versión más reciente."
+
+11. dotnet sln 
+    "Gestiona soluciones de .NET."
+
+12. dotnet ef <comando> 
+    "Ejecuta comandos de Entity Framework Core (requiere el paquete de herramientas de EF Core)."
+
+13. dotnet tool install <nombre> 
+    "Instala una herramienta global de .NET."
+
+14. dotnet tool update <nombre> 
+    "Actualiza una herramienta global de .NET."
+
+15. dotnet tool uninstall <nombre> 
+    "Desinstala una herramienta global de .NET."
+
+16. dotnet publish -c <configuración> 
+    "Publica el proyecto con la configuración especificada (por ejemplo, Debug o Release)."
+
+17. dotnet test --filter <filtro> 
+    "Ejecuta pruebas que coinciden con el filtro especificado."
+
+18. dotnet watch run 
+    "Ejecuta el proyecto y reinicia automáticamente cuando se detectan cambios."
+
+19. dotnet pack 
+    "Empaqueta el proyecto como un paquete NuGet."
+
+20. dotnet clean 
+    "Limpia los archivos generados por la compilación."

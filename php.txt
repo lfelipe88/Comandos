@@ -1,0 +1,59 @@
+1. php -v 
+   "ℹ️ Muestra la versión de PHP instalada en el sistema."
+
+2. php -S <host>:<puerto> 
+   "🚀 Inicia un servidor web embebido en el host y puerto especificados."
+
+3. php <archivo.php> 
+   "📄 Ejecuta un script PHP desde la línea de comandos."
+
+4. php -m 
+   "📦 Muestra los módulos de PHP cargados."
+
+5. php -i 
+   "📜 Muestra la información de configuración de PHP."
+
+6. composer install 
+   "📦 Instala las dependencias del proyecto definidas en composer.json."
+
+7. composer update 
+   "🔄 Actualiza las dependencias del proyecto a la última versión."
+
+8. composer require <paquete> 
+   "➕ Agrega un nuevo paquete como dependencia del proyecto."
+
+9. composer remove <paquete> 
+   "🗑️ Elimina un paquete de las dependencias del proyecto."
+
+10. php artisan serve 
+    "🚀 Inicia un servidor de desarrollo para aplicaciones Laravel."
+
+11. phpunit 
+    "🧪 Ejecuta las pruebas unitarias definidas en el proyecto."
+
+12. php -l <archivo.php> 
+    "🔍 Verifica la sintaxis de un archivo PHP."
+
+13. php -r "<código>" 
+    "💻 Ejecuta un fragmento de código PHP directamente desde la línea de comandos."
+
+14. php -d <directiva>=<valor> <archivo.php> 
+    "⚙️ Establece una directiva de configuración temporal al ejecutar un script."
+
+15. php composer.phar dump-autoload 
+    "📚 Regenera el archivo de autoload de Composer."
+
+16. php artisan migrate 
+    "🔄 Ejecuta las migraciones de base de datos en aplicaciones Laravel."
+
+17. php artisan make:model <NombreModelo> 
+    "📦 Crea un nuevo modelo en Laravel."
+
+18. php artisan make:controller <NombreControlador> 
+    "🛠️ Crea un nuevo controlador en Laravel."
+
+19. php artisan make:migration <nombre-migracion> 
+    "📜 Crea una nueva migración en Laravel."
+
+20. php artisan route:list 
+    "📋 Muestra todas las rutas definidas en la aplicación Laravel."
