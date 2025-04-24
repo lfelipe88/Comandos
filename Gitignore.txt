@@ -1,0 +1,47 @@
+# 🐧 Linux
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# 🐳 Docker
+.dockerignore
+**/node_modules
+.env
+docker-compose.override.yml
+
+# ☁️ Cloud - AWS
+*.pem
+.env
+.aws/
+
+# ☁️ Cloud - Azure
+*.json
+*.pem
+*.env
+.azure/
+
+# 🧪 Git
+*.log
+*.env
+node_modules/
+dist/
+.vscode/
+
+# 🛠️ Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+
+# 🔁 GitHub Actions
+node_modules/
+coverage/
+dist/
+.env
+
+# 🧱 Jenkins
+*.xml
+*.log
+*.bak
+jenkins_home/
