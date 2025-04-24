@@ -1,0 +1,55 @@
+💻 C# - Most Used Commands & .NET CLI Cheatsheet
+===============================================
+
+Una guía rápida con los comandos más utilizados en C# y .NET CLI.
+
+───────────────────────────────────────────────
+📦 .NET CLI - Project Management
+───────────────────────────────────────────────
+
+dotnet new console -n MiApp            # Crear nuevo proyecto de consola
+dotnet new mvc -n MiWeb                # Crear proyecto web MVC
+dotnet new classlib -n MiLibreria      # Crear biblioteca de clases
+dotnet new sln -n MiSolucion           # Crear una solución
+
+───────────────────────────────────────────────
+⚙️ Build & Run
+───────────────────────────────────────────────
+
+dotnet build                           # Compilar el proyecto
+dotnet run                             # Ejecutar el proyecto
+dotnet test                            # Ejecutar pruebas
+dotnet clean                           # Limpiar archivos de compilación
+
+───────────────────────────────────────────────
+🔗 Referencias y Paquetes
+───────────────────────────────────────────────
+
+dotnet sln MiSolucion.sln add MiApp/MiApp.csproj         # Agregar proyecto a solución
+dotnet add reference ../MiLibreria/MiLibreria.csproj     # Agregar referencia a proyecto
+dotnet add package Newtonsoft.Json                        # Instalar paquete NuGet
+dotnet list package                                       # Ver paquetes instalados
+
+───────────────────────────────────────────────
+🔍 Desarrollo & Debug
+───────────────────────────────────────────────
+
+dotnet watch run       # Ejecutar con recarga en caliente
+dotnet --info          # Información del entorno
+dotnet --list-sdks     # Listar SDKs instalados
+dotnet tool list -g    # Herramientas globales instaladas
+
+───────────────────────────────────────────────
+📁 .gitignore recomendado para C# / .NET
+───────────────────────────────────────────────
+
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
