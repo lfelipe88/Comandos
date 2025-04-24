@@ -10,12 +10,12 @@
 .env
 docker-compose.override.yml
 
-# ☁️ Cloud - AWS
+# ☁️ AWS
 *.pem
 .env
 .aws/
 
-# ☁️ Cloud - Azure
+# ☁️ Azure
 *.json
 *.pem
 *.env
@@ -45,3 +45,103 @@ dist/
 *.log
 *.bak
 jenkins_home/
+
+# 🌐 Angular
+/node_modules
+/dist
+/.angular
+/.env
+/package-lock.json
+
+# ⚛️ React
+node_modules/
+build/
+.env
+.vscode/
+coverage/
+*.log
+
+# 🐘 PHP
+vendor/
+.env
+*.log
+*.cache
+
+# 🕊️ Laravel
+/vendor
+/node_modules
+.env
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# 🟩 Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+dist/
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.env
+*.egg
+*.egg-info/
+.env
+.venv/
+Pipfile.lock
+
+# ☕ Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+.idea/
+target/
+build/
+out/
+
+# 🧩 .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.vs
+*.dll
+*.exe
+*.pdb
+
+# 💻 C++
+*.o
+*.obj
+*.exe
+*.out
+*.gch
+*.log
+
+# 📱 Android
+.gradle/
+local.properties
+.idea/
+*.iml
+build/
+
+# 🍏 iOS / Swift
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+Pods/
+build/
+
+# 🧪 General
+*.log
+*.tmp
+*.bak
+.env
+*.swp
+*~
