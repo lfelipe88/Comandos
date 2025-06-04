@@ -1,0 +1,128 @@
+
+Principios SOLID en C# (.NET Core)
+==================================
+
+Los principios SOLID son cinco reglas fundamentales que ayudan a diseñar software más mantenible, flexible y fácil de entender. Cada letra representa un principio:
+
+1. S - Single Responsibility Principle (SRP)
+--------------------------------------------
+"Una clase debe tener una única responsabilidad".
+Esto significa que cada clase debe encargarse de una sola cosa. Si una clase tiene más de una razón para cambiar, probablemente esté haciendo demasiado.
+
+Ejemplo:
+class Report {
+    public string Title { get; set; }
+    public string Content { get; set; }
+
+    public void Generate() {
+        // Lógica para generar el reporte
+    }
+}
+
+class ReportPrinter {
+    public void Print(Report report) {
+        // Lógica para imprimir el reporte
+    }
+}
+> Aquí, 'Report' se encarga de generar el reporte y 'ReportPrinter' de imprimirlo.
+
+Pasos:
+- Identifica las responsabilidades distintas en una clase.
+- Separa esas responsabilidades en diferentes clases.
+
+2. O - Open/Closed Principle (OCP)
+----------------------------------
+"El código debe estar abierto a extensión, pero cerrado a modificación".
+Podemos añadir nuevas funcionalidades sin cambiar el código existente.
+
+Ejemplo:
+abstract class Shape {
+    public abstract double Area();
+}
+
+class Circle : Shape {
+    public double Radius { get; set; }
+    public override double Area() => Math.PI * Radius * Radius;
+}
+
+class Square : Shape {
+    public double Side { get; set; }
+    public override double Area() => Side * Side;
+}
+> Podemos agregar más formas sin cambiar la clase base 'Shape'.
+
+Pasos:
+- Usa clases base (abstractas) o interfaces.
+- Implementa nuevas funcionalidades mediante herencia o polimorfismo.
+
+3. L - Liskov Substitution Principle (LSP)
+------------------------------------------
+"Las clases derivadas deben poder usarse como si fueran de la clase base sin errores".
+
+Ejemplo:
+class Bird {
+    public virtual void Fly() => Console.WriteLine("Flying");
+}
+
+class Sparrow : Bird {
+    public override void Fly() => Console.WriteLine("Sparrow flying");
+}
+> 'Sparrow' puede reemplazar a 'Bird' sin romper el código.
+
+Pasos:
+- Asegúrate de que las clases hijas respetan el contrato de la clase padre.
+- Evita herencias incorrectas que cambien el comportamiento esperado.
+
+4. I - Interface Segregation Principle (ISP)
+--------------------------------------------
+"Las clases no deben estar obligadas a implementar interfaces que no usan".
+
+Ejemplo:
+interface IPrinter {
+    void Print();
+}
+
+interface IScanner {
+    void Scan();
+}
+
+class Printer : IPrinter {
+    public void Print() => Console.WriteLine("Printing...");
+}
+> 'Printer' solo implementa la interfaz que necesita.
+
+Pasos:
+- Divide interfaces grandes en varias pequeñas.
+- Implementa solo lo necesario en cada clase.
+
+5. D - Dependency Inversion Principle (DIP)
+-------------------------------------------
+"Las clases deben depender de abstracciones, no de implementaciones concretas".
+
+Ejemplo:
+interface IMessageSender {
+    void Send(string message);
+}
+
+class EmailSender : IMessageSender {
+    public void Send(string message) => Console.WriteLine("Email: " + message);
+}
+
+class NotificationService {
+    private readonly IMessageSender _sender;
+
+    public NotificationService(IMessageSender sender) {
+        _sender = sender;
+    }
+
+    public void Notify(string msg) => _sender.Send(msg);
+}
+> 'NotificationService' no depende de una clase concreta, sino de una interfaz.
+
+Pasos:
+- Usa interfaces o clases abstractas.
+- Inyecta dependencias desde el exterior (constructor, inyección de dependencias).
+
+Resumen
+-------
+Aplicar SOLID mejora la calidad del código, facilita las pruebas y la colaboración en equipo. Estos principios no son reglas rígidas, pero ofrecen una guía muy útil para el diseño de software profesional.
