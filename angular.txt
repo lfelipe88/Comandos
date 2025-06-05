@@ -1,5 +1,5 @@
 1. ng new <nombre - proyecto> 
-   "🌱 Crea un nuevo proyecto Angular con la configuración inicial."
+   "🌱 Crea un nuevo proyectoSS Angular con la configuración inicial."
 
 2. ng serve 
    "🚀 Inicia un servidor de desarrollo y abre la aplicación en el navegador."
