@@ -1,4 +1,4 @@
-1. ng new <nombre-proyecto> 
+1. ng new <nombre - proyecto> 
    "🌱 Crea un nuevo proyecto Angular con la configuración inicial."
 
 2. ng serve 
