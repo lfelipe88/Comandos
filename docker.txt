@@ -1,3 +1,9 @@
+#comando para matar todos los container
+docker rm -f $(docker ps -aq) 
+
+# comando para matar todas las imagenes
+docker rmi -f $(docker images -q)
+
 # Usar una imagen base de Node.js
 FROM node
 
