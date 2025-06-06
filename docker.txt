@@ -1,3 +1,9 @@
+# Limpiar todo (contenedores, imágenes, redes, volúmenes y caché de construcción):
+docker system prune -a --volumes -f
+
+#Comando alternativo (más agresivo, para Docker ≥ 17.06.0):
+docker system prune -a --volumes -f && docker rm -vf $(docker ps -aq) && docker rmi -f $(docker images -aq)
+
 #comando para matar todos los container
 docker rm -f $(docker ps -aq) 
 
