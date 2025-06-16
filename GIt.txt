@@ -1,3 +1,7 @@
+rm -rf .git +++++para eliminar datos github anteriores
+git remote add origin https://github.com/
+push -u origin main
+
 🔧 Basic Commands
 git init – Initialize a new Git repository.
 git clone <repo_url> – Clone a remote repository.
