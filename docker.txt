@@ -1,3 +1,10 @@
+docker build -t miapp:1,0
+docker run -d --name mycontainer -p 4200:80 myapp:1.0
+
+docker tag my-imagen luisfelipe68/rickandmortyweb
+docker push luisfelipe68/rickandmortyweb
+
+
 # Limpiar todo (contenedores, imágenes, redes, volúmenes y caché de construcción):
 docker system prune -a --volumes -f
 
